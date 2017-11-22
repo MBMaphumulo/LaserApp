@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<title>Prac</title>
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/font-awesome.css" rel="stylesheet" />
+		<link href="css/modalss.css" rel="stylesheet" />
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body ng-app="LaserApp">
+		<div id="overlay"></div>
+		 <div class="container" ng-controller="LoginController" >
+            <div class="row">
+             
+                <div class="col-md-6" >
+                	<div class="formWrapper" id="loginFormm" style="margin:0 auto;margin-top: 63px; ">
+                  		  	<form>
+                  		  		<h2 class="text-center">Login</h2>
+                  		  		<div ng-model="obj.error"></div>
+		                        <label>Username</label>
+		                        <input type="text" ng-model="obj.username" placeholder="Username"/>
+		                        <br/>
+		                        <label>Password</label>
+		                        <input type="password" ng-model="obj.password" placeholder="Password" />
+		                        <br/>
+		                        <button class="btn btn-success" ng-click="btnLogin(obj)">Login</button>
+		                        <br/><br/>
+		                        <div class="row">
+			                        <div class="col-xs-8 col-md-offset-1 col-md-8">
+			                        	Dont have an account? 
+			                        </div>
+			                        <div class="col-xs-3 col-md-2">
+			                        	<a href="#" class="navbar-right" ng-click="showRegForm()">Register</a>
+			                        </div>
+		                        </div> 
+                    		</form>
+                    	</div>
+                    	<div class="formWrapper" id="regFormm" style="display: none;">
+                  		  	<form>
+                  		  		<h2 class="text-center">Registration</h2>
+                  		  		<div ng-model="objReg.error"></div>
+		                        <label>Firstname</label>
+		                        <input type="text" ng-model="objReg.firstname" placeholder="Firstname"/>
+		                        <br/>
+		                        <label>Lastname</label>
+		                        <input type="text" ng-model="objReg.lastname" placeholder="Lastname"/>
+		                        <br/>
+		                        <label>Username</label>
+		                        <input type="text" ng-model="objReg.username" placeholder="Username"/>
+		                        <br/>
+		                        <label>Password</label>
+		                        <input type="password" ng-model="objReg.password" placeholder="Password" />
+		                        <br/>
+		                        <button class="btn btn-success" ng-click="btnReg(objReg)">Register</button>
+		                        <br/><br/>
+		                        <div class="row">
+			                        <div class="col-xs-9 col-md-offset-1 col-md-8">
+			                        	Already have an account? 
+			                        </div>
+			                        <div class="col-xs-2 col-md-2">
+			                        	<a href="#" class="navbar-right" ng-click="showLoginForm()">Login</a>
+			                        </div>
+		                        </div> 
+                    		</form>
+                		</div>     
+               		 </div>
+          			</div>
+      		</div>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
