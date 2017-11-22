@@ -13,11 +13,15 @@
 		</style>
 	</head>
 	<body ng-app="LaserApp">
+		<!-- black background called overlay -->
 		<div id="overlay"></div>
+		<!--  overlay ends -->
+
 		 <div class="container" ng-controller="LoginController" >
             <div class="row">
              
                 <div class="col-md-6" >
+					<!-- Login form starts -->
                 	<div class="formWrapper" id="loginFormm" style="margin:0 auto;margin-top: 63px; ">
                   		  	<form>
                   		  		<h2 class="text-center">Login</h2>
@@ -39,7 +43,10 @@
 			                        </div>
 		                        </div> 
                     		</form>
-                    	</div>
+						</div>
+						<!--Login form ends -->
+
+						<!--Registration form starts -->
                     	<div class="formWrapper" id="regFormm" style="display: none;">
                   		  	<form>
                   		  		<h2 class="text-center">Registration</h2>
@@ -67,9 +74,9 @@
 			                        </div>
 		                        </div> 
                     		</form>
-                		</div>     
-               		 </div>
-          			</div>
+						</div>     <!-- registration form ends -->
+               		 </div><!-- rows ends -->
+          			</div><!-- container ends -->
       		</div>
 
 		<script src="js/jquery-3.2.1.min.js"></script>
