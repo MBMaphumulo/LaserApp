@@ -23,10 +23,10 @@
                   		  		<h2 class="text-center">Login</h2>
                   		  		<div ng-model="obj.error"></div>
 		                        <label>Username</label>
-		                        <input type="text" ng-model="obj.username" placeholder="Username"/>
+		                        <input type="text" ng-model="obj.username" placeholder="Username" required/>
 		                        <br/>
 		                        <label>Password</label>
-		                        <input type="password" ng-model="obj.password" placeholder="Password" />
+		                        <input type="password" ng-model="obj.password" placeholder="Password" required/>
 		                        <br/>
 		                        <button class="btn btn-success" ng-click="btnLogin(obj)">Login</button>
 		                        <br/><br/>
@@ -45,16 +45,16 @@
                   		  		<h2 class="text-center">Registration</h2>
                   		  		<div ng-model="objReg.error"></div>
 		                        <label>Firstname</label>
-		                        <input type="text" ng-model="objReg.firstname" placeholder="Firstname"/>
+		                        <input type="text" ng-model="objReg.firstname" placeholder="Firstname" required/>
 		                        <br/>
 		                        <label>Lastname</label>
-		                        <input type="text" ng-model="objReg.lastname" placeholder="Lastname"/>
+		                        <input type="text" ng-model="objReg.lastname" placeholder="Lastname" required/>
 		                        <br/>
 		                        <label>Username</label>
-		                        <input type="text" ng-model="objReg.username" placeholder="Username"/>
+		                        <input type="text" ng-model="objReg.username" placeholder="Username" required/>
 		                        <br/>
 		                        <label>Password</label>
-		                        <input type="password" ng-model="objReg.password" placeholder="Password" />
+		                        <input type="password" ng-model="objReg.password" placeholder="Password" required/>
 		                        <br/>
 		                        <button class="btn btn-success" ng-click="btnReg(objReg)">Register</button>
 		                        <br/><br/>
