@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<title>app</title>
+	</head>
+	<body>
+    <h1>Azishe boh</h1>
+	<script src="js/app.js"></script>
+	</body>
+</html>
