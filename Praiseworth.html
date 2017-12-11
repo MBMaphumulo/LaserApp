@@ -9,10 +9,86 @@
 		<link href="css/font-awesome.css" rel="stylesheet" />
 		<link href="css/modalss.css" rel="stylesheet" />
 		<style type="text/css">
+			#calculater{
+				width: 500px;
+				background-color: rgba(0,0,0,0.8);
+				padding: 50px;
+				color:white;
+				margin-top: 50px;
+			}
 
+			#btnSum{
+				width: 100%; 
+				border-radius: 0;
+			}
 		</style>
 	</head>
-	<body>
-		
+	<body >
+
+		<!-- black background called overlay -->
+		<div id="overlay"></div>
+		<!--  overlay ends -->
+		<!--
+
+		 Delete all of this when you start working
+			
+		You'll see a start and an end comment... start coding inside it. dont remove the comments
+			
+			;)    
+
+		-->
+
+		<!--Start-->
+		<h1 class="text-center"> Hi Praiseworth , Goodluck on you task for the day!</h1>
+
+		<center>
+			<form id="calculater">
+			<h3>Basic interface</h3>
+
+
+
+				<!--1st input-->
+				<input type="text" id="num1" placeholder="enter you 1st number" /><br/>
+				<!--1st input ends-->
+
+				<!--2nd input-->
+				<input type="text" id="num2" placeholder="enter you 2nd number" /><br/>
+				<!--2nd input ends-->
+
+
+
+				<div class="row">
+					<div class="col-md-6">
+
+
+
+						<!--Button-->
+						<input class="btn btn-primary" type="button" id="btnSum" value="Submit" /><br/>
+						<!--Button ends-->
+
+
+
+					</div>
+					<div class="col-md-6">
+
+
+						<!--answers view-->
+						Answer : <label id="results">Loading...</label>
+						<!--ends answers view-->
+
+					</div>
+				</div>
+				
+			</form>
+		</center>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript">
+			
+			//your script code goes here
+
+		</script>
+
+		<!--End-->
 	</body>
 </html>
