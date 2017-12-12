@@ -1,0 +1,12 @@
+			#calculater{
+				width: 500px;
+				background-color: rgba(0,0,0,0.8);
+				padding: 50px;
+				color:white;
+				margin-top: 50px;
+			}
+
+			#btnSum{
+				width: 100%; 
+				border-radius: 0;
+			}
