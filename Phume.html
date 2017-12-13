@@ -35,6 +35,26 @@
 			<h2>Your task is still based on Xampp</h2>
 		</center>
 
+		<?php
+
+			$host = "localhost";
+			$username = "root";
+			$password = "";
+			$db_name = ""
+
+			$conn = new mysqli($host,$username,$password,$db_name);
+
+			$sql = "SELECT * FROM users";
+
+			$results = $conn->query($sql);
+
+			while($row = $results->fetch_assoc()){
+
+				echo $row."</br>";
+			}
+
+		?>
+
 
 
 		<script src="js/jquery-3.2.1.min.js"></script>
