@@ -10,12 +10,26 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+.input-group
+{
+  background-color: #cccccc;
+}
+#register{
+background-image: linear-gradient(rgb(155, 90, 16), #2e0841);;
+}
+#basic-addon1
+{
+  background-color: #9e5c11;
+}
 .panel-body
 {
  /* position: relative;
   width:100%;
   height: 50px;
- */ background:url(../images/durban.jpg);
+ */  background-color: #cccccc;
+ background-image: linear-gradient(rgb(155, 90, 16), #2e0841);
+ 
   color: #020202;
   text-align: center;
   line-height: 50px;
@@ -25,18 +39,17 @@ html {
 }
 .form-group
 {
-  background:#0e6e6a; 
+ /* background:#6e410e; */
   color: #2e0841;
   text-align: center;
   line-height: 50px;
 } 
-.btn 
+.btn
 {
-  background:#1b4442; 
-  color: #084110;
-  text-align: center;
-  line-height: 50px;
+  background-color: #9e5c11;
 } 
+
+ 
 article,
 aside,
 details,
@@ -6607,3 +6620,4 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
