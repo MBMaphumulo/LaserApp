@@ -10,26 +10,55 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+.header img {
+  float: right;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
 
 .input-group
 {
-  background-color: #cccccc;
+  background-color: #cab5c5;
 }
 #register{
-background-image: linear-gradient(rgb(155, 90, 16), #2e0841);;
+  background-color: #e4d4d4;
+  background-image: url(../images/makerspace.jpg);
+  background-blend-mode: lighten;
+ /* background-repeat: no-repeat, repeat;*/
+   /*linear-gradient(rgb(155, 90, 16), #2e0841);
+  */
+  background-size: 100%;
+  height: 50%;
+ 
+   color: #020202;
+   text-align: center;
+   line-height: 50px;
+   font-size: 20px;
+   cursor: pointer;
+   box-shadow:0 5px 10px
 }
 #basic-addon1
 {
-  background-color: #9e5c11;
+  background-color: #cab5c5;
 }
 .panel-body
 {
- /* position: relative;
+ /* position: relative; 
   width:100%;
   height: 50px;
- */  background-color: #cccccc;
- background-image: linear-gradient(rgb(155, 90, 16), #2e0841);
- 
+ */  
+
+ background-color: #e4d4d4;
+ background-image: url(../images/makerspace.jpg);
+ background-blend-mode: lighten;
+/* background-repeat: no-repeat, repeat;*/
+  /*linear-gradient(rgb(155, 90, 16), #2e0841);
+ */
+ background-size: 100%;
+ height: 50%;
+
   color: #020202;
   text-align: center;
   line-height: 50px;
@@ -37,6 +66,8 @@ background-image: linear-gradient(rgb(155, 90, 16), #2e0841);;
   cursor: pointer;
   box-shadow:0 5px 10px
 }
+
+
 .form-group
 {
  /* background:#6e410e; */
@@ -46,7 +77,7 @@ background-image: linear-gradient(rgb(155, 90, 16), #2e0841);;
 } 
 .btn
 {
-  background-color: #9e5c11;
+  background-color: #cab5c5;
 } 
 
  
